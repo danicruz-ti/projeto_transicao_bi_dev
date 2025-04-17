@@ -1,12 +1,18 @@
+
 select * from clientes
+  
 --colunas
 select cliente, sexo, status from clientes
+
 --filtro
 select cliente, sexo, status from clientes where status = 'Silver'
+  
 --or
 select cliente, sexo, status from clientes where status = 'Silver' OR status = 'Platinum'
+  
 --in
 select cliente, sexo, status from clientes where status IN ('Silver','Platinum')
+  
 --like
 select cliente, sexo, status from clientes where cliente like '%Alb%'
 -->
